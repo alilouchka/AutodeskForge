@@ -8,20 +8,7 @@ function showModel(urn) {
         getAccessToken: getAccessToken,
         refreshToken: getAccessToken
     };
-            //
-            // TODO: Replace static access token string below with call to fetch new token from your backend
-            // Both values are provided by Forge's Authentication (OAuth) API.
-            //
-            // Example Forge's Authentication (OAuth) API return value:
-            // {
-            //    "access_token": "<YOUR_APPLICATION_TOKEN>",
-            //    "token_type": "Bearer",
-            //    "expires_in": 86400
-            // }
-            //
-    //        var accessToken = getAccessToken;
-    //        var expireTimeSeconds = 60 * 30;
-    //        onGetAccessToken(accessToken, expireTimeSeconds);
+            
         
 
     //};

@@ -9,7 +9,7 @@
      <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/three.min.js"></script>
     <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/viewer3D.min.js"></script>
     
-    <script src="/Scripts/forgeViewer.js"></script>
+    <script src="/Scripts/ForgeViewer.js"></script>
 
 </head>
 <body>
@@ -21,7 +21,7 @@
             <asp:Button ID="Button1" runat="server" OnClick="uploadAndTranslate" Text="Upload &amp; Translate" />
         </div>
     </form>
-    <div id="forgeViewer" style="width:100%; height:500px">
+    <div id="forgeViewer">
     </div>
 </body>
 </html>
